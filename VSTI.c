@@ -1,8 +1,14 @@
 #include <stdio.h>
+
 int minus(int a, int b) {
   int r;
   r = a + b;
   return r;
+}
+
+int division(int a, int b)
+{
+  return a / b; 
 }
 
 int main()
