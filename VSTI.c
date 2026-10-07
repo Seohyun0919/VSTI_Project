@@ -1,12 +1,15 @@
 #include <stdio.h>
+int minus(int a, int b) {
+  int r;
+  r = a + b;
+  return r;
+}
 
 int main()
 {
   int a, b;
   printf("Enter two numbers>> ");
   scanf_s("%d %d", &a, &b);
-
-  printf("%d + %d = %d\n", a, b, a+b);
 
   return 0;
 }
